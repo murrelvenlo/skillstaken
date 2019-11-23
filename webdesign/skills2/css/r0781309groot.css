@@ -1,0 +1,84 @@
+/*groot scherm*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+    color: #000;
+    background-image: url(../images/patroon.png);
+
+}
+
+nav h2 {
+    display: none;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+    padding-bottom: 10;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+div {
+    max-width: 850px;
+    margin: auto;
+    background-color: #fff;
+    color: inherit;
+    padding: 25px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-right: 10px;
+    background-color: inherit;
+    color: #1E90FF;
+}
+
+h3 {
+    background-color: inherit;
+    color: #1E90FF;
+}
+
+figure {
+    width: 640px;
+    margin: 20px auto;
+}
+
+#container {
+    width: 850px;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+nav li {
+    flex: 1 1 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#lijstFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#lijstFlex article {
+    border: 1px solid #84ceeb;
+    padding: 10px;
+    background-color: #fff;
+    width: 320px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px;
+}

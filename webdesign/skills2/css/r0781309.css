@@ -1,0 +1,92 @@
+/*basisstijl*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: lightcyan;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+nav h2 {
+    display: none;
+}
+
+h2,
+h3 {
+    color: #1E90FF;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+article {
+    padding: 20px;
+}
+
+article ol {
+    padding-left: 20px;
+}
+
+a:link {
+    flex: 1 1 100%;
+    background-color: #808080;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: normal;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #84ceeb;
+}
+
+a:visited {
+    background-color: blueviolet;
+    color: #84ceeb;
+    border: 1px solid #84ceeb;
+}
+
+a:focus {
+    background-color: blue;
+    color: #fff;
+}
+
+a:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+a:active {
+    background-color: #fff;
+    color: blueviolet;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+nav li {
+    flex: 1 1 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
