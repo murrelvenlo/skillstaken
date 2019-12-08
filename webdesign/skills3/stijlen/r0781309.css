@@ -1,4 +1,5 @@
 /*mijn css*/
+/*klein*/
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +8,10 @@
 body {
     background-color: blue;
     color: yellow;
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
+    padding: 10px;
 }
 
 h1 {
@@ -20,12 +23,16 @@ h1 {
 .container {
     background-color: #fff;
     color: #000;
-    padding: 10px;
+    padding: 0px;
 }
 
-h2 {}
+h2 {
+    padding: 10px 10px;
+}
 
-p {}
+p {
+    padding: 10px 25px;
+}
 
 
 img {
@@ -33,9 +40,13 @@ img {
     width: 100%;
 }
 
-ul {}
+ul {
+    list-style: none;
+}
 
-footer {}
+footer {
+    padding: 10px;
+}
 
 @media (min-width: 768px) {
     body {
@@ -44,19 +55,20 @@ footer {}
     }
 
     img {
-        padding: ;
+        width: 100%;
     }
 
     h1 {
-        background-color: #000;
+        background-color: inherit;
         color: #fff;
     }
 
     h2 {
         color: #fff;
-        font-family: ;
-        text-align: ;
-        text-transform: ;
+        font-family: 'Black Ops One', cursive;
+        font-size: 40px;
+        line-height: inherit;
+        text-align: center;
     }
 
     .container {
@@ -65,18 +77,24 @@ footer {}
     }
 
     li a {
-        background-color: ;
-        color: ;
-        text-decoration: ;
-        text-align: ;
-        padding: ;
+        background-color: #fff;
+        color: #303030;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
     }
 
     li a:hover,
     li a:focus {
-        background-color: ;
-        color: ;
+        background-color: #303030;
+        color: #fff;
     }
+
+    ul {
+        list-style: none;
+        padding: 10px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -89,8 +107,12 @@ footer {}
     }
 
     h1 {
-        background-color: #7f7679;
-        color: #fff;
+        background-color: inherit;
+        color: #7f7679;
+    }
+
+    img {
+        border: 1px solid #000;
     }
 
     .container {
@@ -101,5 +123,36 @@ footer {}
     h2 {
         background-color: inherit;
         color: #000;
+        font-family: 'Pinyon Script', cursive;
+        font-size: 50px;
+        line-height: inherit;
+        text-align: center;
+        padding: 10px;
     }
+
+    div {
+        padding: 10px;
+    }
+
+
+
+    li a {
+        background-color: #f1eaf9;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+    }
+
+    li a:hover,
+    li a:focus {
+        background-color: #fff;
+        color: #000;
+    }
+
+    ul {
+        list-style: none;
+        padding: 10px;
+    }
+
 }
